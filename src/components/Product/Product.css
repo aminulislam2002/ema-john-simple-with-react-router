@@ -1,0 +1,36 @@
+.product {
+  width: 300px;
+  height: 560px;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.product img {
+  width: 286px;
+  height: 286px;
+  margin-left: 7px;
+}
+.product-name {
+  margin: 0px 0px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(41, 66, 109);
+}
+.product-info {
+  margin-left: 14px;
+}
+.product-info p{
+    margin-top: 5px;
+}
+.btn-cart{
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+}
+.btn-cart:hover{
+    background-color: cyan;
+}
